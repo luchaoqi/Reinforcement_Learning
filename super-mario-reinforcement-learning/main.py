@@ -1,7 +1,7 @@
 import time
 import numpy as np
 from nes_py.wrappers import JoypadSpace
-#BinarySpaceToDiscreteSpaceEnv
+#from nes_py.wrappers import BinarySpaceToDiscreteSpaceEnv
 import gym_super_mario_bros
 from gym_super_mario_bros.actions import RIGHT_ONLY
 from agent import DQNAgent
