@@ -5,7 +5,9 @@ from nes_py.wrappers import JoypadSpace
 import gym_super_mario_bros
 from gym_super_mario_bros.actions import RIGHT_ONLY
 from agent import DQNAgent
+# from gym import wrappers
 from wrappers import wrapper
+
 
 
 # Build env (first level, right only)
