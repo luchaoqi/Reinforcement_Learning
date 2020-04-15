@@ -20,6 +20,8 @@ actions = env.action_space.n
 agent = DQNAgent(states=states, actions=actions, max_memory=100000, double_q=True)
 
 # Replay
+# model_path = '/home/luchao-qi/Downloads/models'
+# model_path = '/home/luchao-qi/models/temp1'
 model_path = './models'
 # './models/final-vm-1'
 agent.replay(env=env, model_path=model_path, n_replay=1, plot=False)
