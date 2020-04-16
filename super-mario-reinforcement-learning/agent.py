@@ -2,9 +2,9 @@ import time
 import random
 import numpy as np
 from collections import deque
-import tensorflow as tf
 from matplotlib import pyplot as plt
-
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior() 
 
 class DQNAgent:
     """ DQN agent """
@@ -156,6 +156,8 @@ class DQNAgent:
                 while True:
                     time.sleep(0.05)
                     env.render()
+                    #render = lambda : plt.imshow(env.render(mode='rgb_array'))
+                    #render()
                     # Plot
                     if plot:
                         if step % 100 == 0:
