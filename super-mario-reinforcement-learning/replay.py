@@ -5,6 +5,10 @@ import gym_super_mario_bros
 from gym_super_mario_bros.actions import RIGHT_ONLY
 from wrappers import wrapper
 
+from IPython import display
+import matplotlib
+import matplotlib.pyplot as plt
+
 
 # Build env
 env = gym_super_mario_bros.make('SuperMarioBros-1-1-v0')
