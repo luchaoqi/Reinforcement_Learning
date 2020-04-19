@@ -178,6 +178,43 @@ class DQNAgent:
                         break
         env.close()
 
+    def save(self, env, model_path, n_replay):
+        """ Model replay """
+        ckpt = tf.train.latest_checkpoint(model_path)
+        saver = tf.train.import_meta_graph(ckpt + '.meta')
+        graph = tf.get_default_graph()
+        input = graph.get_tensor_by_name('input:0')
+        output = graph.get_tensor_by_name('online/output/BiasAdd:0')
+        # Replay RL agent
+        state = env.reset()
+        total_reward = 0
+        with tf.Session() as sess:
+            saver.restore(sess, ckpt)
+            for _ in range(n_replay):
+                step = 0
+                while True:
+                    time.sleep(0.05)
+                    env.render()
+                    # Action
+                    if np.random.rand() < 0.0:
+                        action = np.random.randint(low=0, high=self.actions, size=1)[0]
+                    else:
+                        q = sess.run(fetches=output, feed_dict={input: np.expand_dims(state, 0)})
+                        action = np.argmax(q)
+                    next_state, reward, done, info = env.step(action)
+                    total_reward += reward
+                    state = next_state
+                    step += 1
+                    if info['flag_get']:
+                        break
+                    if done:
+                        break
+        env.close()        
+
+
+
+
+
     def visualize_layer(self, session, layer, state, step):
         """ Visualization auf Conv Layers"""
         units = session.run(layer, feed_dict={self.input: np.expand_dims(state, 0)})
