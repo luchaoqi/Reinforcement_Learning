@@ -4,6 +4,7 @@
 
 
 [DQN](https://github.com/sebastianheinz/super-mario-reinforcement-learning)
+Reinforcement learning for Super Mario Bros using CNN in Tensorflow
 
 
 
