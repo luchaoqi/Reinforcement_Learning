@@ -14,7 +14,6 @@ https://towardsdatascience.com/using-reinforcement-learning-to-play-super-mario-
 
 https://zurich-r-user-group.github.io/slides/20190618_reinforcelearn.pdf
 
-Reinforcement learning for Super Mario Bros using CNN in Tensorflow
 
 ## Proposal & Report & Poster
 
