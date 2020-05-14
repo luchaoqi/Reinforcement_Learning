@@ -1,6 +1,6 @@
 ## DQN
 
-![](https://github.com/LuchaoQi/Reinforcement_Learning/blob/master/DQN/videos/1587340218.7419407/openaigym.video.0.22196.video000000.gif?raw=True)
+![](https://i.loli.net/2020/05/14/YDwUPjg7IKzos1l.gif)
 
 ![](https://github.com/LuchaoQi/Reinforcement_Learning/blob/master/demo.gif?raw=True)
 
