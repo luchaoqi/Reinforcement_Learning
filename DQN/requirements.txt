@@ -34,7 +34,7 @@ gym==0.17.1
 gym-pull==0.1.7
 gym-super-mario-bros==7.3.0
 h5py==2.10.0
-httplib2==0.11.3
+httplib2==0.18.0
 idna==2.6
 imageio==2.8.0
 joblib==0.14.1
