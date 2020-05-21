@@ -4,6 +4,7 @@
 
 ![](https://github.com/LuchaoQi/Reinforcement_Learning/blob/master/demo.gif?raw=True)
 
+
 ## PPO
 [Reinforcement Learning PPO Super Mario Bros Agent](https://github.com/nemanja-m/super-mario-agent)
 
@@ -22,6 +23,8 @@ https://www.overleaf.com/read/zbjpfncbcxpn
 
 ## References
 [DQN](https://github.com/sebastianheinz/super-mario-reinforcement-learning)
+
+[DDQN](https://github.com/davidchiou/DDQN_Mario)
 
 https://towardsdatascience.com/using-reinforcement-learning-to-play-super-mario-bros-on-nes-using-tensorflow-31281e35825
 
