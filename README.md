@@ -1,4 +1,6 @@
-## DQN
+This repo contains all the code needed to implement reinforcement learning in Super Mario Bros using different algrithoms.
+
+## Deep Q-Network
 
 ![](https://i.loli.net/2020/05/14/YDwUPjg7IKzos1l.gif)
 
