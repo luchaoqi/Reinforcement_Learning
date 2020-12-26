@@ -1,4 +1,4 @@
-This repo contains all the code needed to implement reinforcement learning in Super Mario Bros using different algrithoms.
+This repo contains all the code needed to implement reinforcement learning in Mountain Car / Cartpole / Super Mario Bros.
 
 ## Deep Q-Network
 
