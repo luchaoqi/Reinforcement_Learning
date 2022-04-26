@@ -17,6 +17,8 @@ https://github.com/LuchaoQi/Reinforcement_Learning/blob/master/Poster.pdf
 
 ## References
 
+[用强化学习通关超级马里奥！](https://mp.weixin.qq.com/s/0hsFT6MD9gMY9b4v5DSYeg)
+
 [使用PPO算法玩“超级马里奥兄弟”](https://developer.huaweicloud.com/develop/aigallery/usecase/detail?id=3390253c-a00f-4c2a-92b6-08384ec31693)
 
 [DQN](https://github.com/sebastianheinz/super-mario-reinforcement-learning)
